@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  min-height: 100vh;
+}
+.comments-app-container {
+  display: flex;
+  align-items: flex-end;
+  width: 80%;
+  border-bottom: 2px solid #dee0e3;
+  padding-bottom: 20px;
+}
+.comment-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+.label {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  padding-bottom: 10px;
+}
+.name {
+  width: 50%;
+  padding: 5px;
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border: 1px solid #cbd2d9;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.comment {
+  width: 50%;
+  padding: 5px;
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border: 1px solid #cbd2d9;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+.button {
+  color: #fff;
+  background-color: #0284c7;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.comment-img {
+  width: 85%;
+}
+
+.comment-item {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+}
+.comment-title {
+  margin-top: 0px;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.count {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
